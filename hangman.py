@@ -13,7 +13,7 @@ char_check = []
 for i in range(char_hint_len):
     char_check += "⬜"
 print(f"char_check : {char_check}")
-guess = input("Guess a letter: ")
+guess = input("Guess a letter: ? ")
 
 index =[]
 
