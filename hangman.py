@@ -56,7 +56,7 @@ while char_hint != char_check:
         if attempt == 5: 
             print("เสียใจด้วย! คุณใช้ครบทุกครั้งลองแล้ว คำคำตอบคือ:", chosen_word)
             break
-        guess = input("Guess a letter: ")
+        guess = input("Guess a letter :? ")
    
 #  ตรวจสอบว่าตัวอักษรที่ผู้เล่นใส่อยู่มีในคำหรือไม่ และต้องแสดงตำแหน่งของตัวอักษรนั้นถ้ามี โดยการเปลี่ยนบรรทัดที่ 19-30 เป็น:
 # if guess in chosen_word:
